@@ -233,6 +233,7 @@ def winning_team
     return "Charlotte Hornets"
   else
     return "Brooklyn Nets"
+  end
   return hsh
 end
       
