@@ -226,10 +226,7 @@ def winning_team
       hsh[game_data[:team_name]] << player[:points]
     end
   end
-  winner = nil
   if hsh["Charlotte Hornets"].sum > hsh["Brooklyn Nets"].sum
-    puts hsh["Charlotte Hornets"].sum
-    puts hsh["Brooklyn Nets"].sum
     return "Charlotte Hornets"
   else
     return "Brooklyn Nets"
