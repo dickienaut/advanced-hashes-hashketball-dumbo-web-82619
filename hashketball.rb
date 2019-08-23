@@ -223,7 +223,7 @@ def winning_team
   hsh = {'Charlotte Hornets' => 0, 'Brooklyn Nets' => 0 }
   game_hash.each do |team, game_data|
     game_data[:players].each do |player|
-      hsh[team] += player[:points]
+      puts player
     end
   end
   return hsh
