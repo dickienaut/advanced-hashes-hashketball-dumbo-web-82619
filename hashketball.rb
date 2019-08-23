@@ -228,6 +228,8 @@ def winning_team
   end
   winner = nil
   if hsh["Charlotte Hornets"].sum > hsh["Brooklyn Nets"]
+    puts hsh["Charlotte Hornets"].sum
+    puts
     return "Charlotte Hornets"
   else
     return "Brooklyn Nets"
